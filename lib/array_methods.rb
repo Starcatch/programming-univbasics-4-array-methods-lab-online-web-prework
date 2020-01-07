@@ -4,7 +4,7 @@ def using_include(array, element)
 end
 
 def using_sort(array)
-  sorted_array = array.sort
+  array.sort
   sorted_array
 end
 
@@ -21,5 +21,5 @@ def using_last(array)
 end
 
 def using_size(array)
-
+array.size
 end
